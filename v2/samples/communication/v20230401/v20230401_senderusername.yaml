@@ -1,0 +1,11 @@
+apiVersion: communication.azure.com/v20230401
+kind: SenderUsername
+metadata:
+  name: aso-sample-senderusername
+  namespace: default
+spec:
+  owner:
+    name: aso-sample-domain
+  azureName: aso-sample-sender
+  username: aso-sample-sender
+  displayName: ASO Sample Sender
